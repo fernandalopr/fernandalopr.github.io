@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ADELas - Productos</title>
+
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+
+
+<body>
+
+
+    <header>
+
+        <h1>ADELA's</h1>
+
+        <p>Las mejores vacas, los mejores lácteos</p>
+
+    </header>
+
+
+    <nav>
+
+        <div class="menu-links">
+
+            <a href="index.html">Inicio</a>
+
+            <a href="productos.html">Productos</a>
+
+            <a href="contacto.html">Contacto</a>
+
+            <a href="#" class="carrito">
+                <img src="carrito.rosa1.png" alt="Carrito de compras">
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <main>
+
+
+        <section class="titulo-productos">
+
+            <h2>Nuestros productos</h2>
+
+            <p>
+                Elige el producto que más te guste,
+                selecciona la presentación y la cantidad que deseas.
+            </p>
+
+        </section>
+
+
+        <section class="catalogo">
+
+
+            <!-- LECHE -->
+
+            <article class="producto-detalle">
+
+                <div class="producto-imagen">
+
+                    <img src="leche.jpg" alt="Leche fresca">
+
+                </div>
+
+
+                <div class="producto-info">
+
+                    <h2>🥛 Leche</h2>
+
+                    <p>
+                        Leche fresca y de calidad para toda la familia.
+                        Precio de S/ 4.00 por litro.
+                    </p>
+
+
+                    <label for="leche-presentacion">
+                        Presentación:
+                    </label>
+
+                    <select id="leche-presentacion">
+
+                        <option>½ litro - S/ 2.00</option>
+
+                        <option>1 litro - S/ 4.00</option>
+
+                        <option>2 litros - S/ 8.00</option>
+
+                        <option>3 litros - S/ 12.00</option>
+
+                        <option>4 litros - S/ 16.00</option>
+
+                        <option>5 litros - S/ 20.00</option>
+
+                    </select>
+
+
+                    <label for="leche-cantidad">
+                        Cantidad:
+                    </label>
+
+                    <input
+                        type="number"
+                        id="leche-cantidad"
+                        min="1"
+                        step="1"
+                        value="1"
+                    >
+
+
+                    <p class="precio">
+                        Precio por presentación: S/ 2.00 - S/ 20.00
+                    </p>
+
+
+                    <button type="button">
+                        🛒 Agregar al carrito
+                    </button>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- YOGUR -->
+
+            <article class="producto-detalle">
+
+                <div class="producto-imagen">
+
+                    <img src="yogurt.jpg" alt="Yogur">
+
+                </div>
+
+
+                <div class="producto-info">
+
+                    <h2>🍓 Yogur</h2>
+
+                    <p>
+                        Yogures cremosos en diferentes sabores
+                        y presentaciones.
+                    </p>
+
+
+                    <label for="yogur-sabor">
+                        Sabor:
+                    </label>
+
+                    <select id="yogur-sabor">
+
+                        <option>Fresa</option>
+
+                        <option>Arándano</option>
+
+                        <option>Higo</option>
+
+                    </select>
+
+
+                    <label for="yogur-presentacion">
+                        Presentación:
+                    </label>
+
+                    <select id="yogur-presentacion">
+
+                        <option>½ litro - S/ 4.00</option>
+
+                        <option>1 litro - S/ 8.00</option>
+
+                        <option>2 litros - S/ 16.00</option>
+
+                        <option>3 litros - S/ 24.00</option>
+
+                        <option>4 litros - S/ 32.00</option>
+
+                        <option>5 litros - S/ 40.00</option>
+
+                    </select>
+
+
+                    <label for="yogur-cantidad">
+                        Cantidad:
+                    </label>
+
+                    <input
+                        type="number"
+                        id="yogur-cantidad"
+                        min="1"
+                        step="1"
+                        value="1"
+                    >
+
+
+                    <p class="precio">
+                        Precio desde S/ 4.00
+                    </p>
+
+
+                    <button type="button">
+                        🛒 Agregar al carrito
+                    </button>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- QUESOS -->
+
+            <article class="producto-detalle">
+
+                <div class="producto-imagen">
+
+                    <img src="queso.jpg" alt="Quesos">
+
+                </div>
+
+
+                <div class="producto-info">
+
+                    <h2>🧀 Quesos</h2>
+
+                    <p>
+                        Diferentes variedades de quesos para
+                        disfrutar en cualquier momento.
+                    </p>
+
+
+                    <label for="queso-variedad">
+                        Variedad:
+                    </label>
+
+                    <select id="queso-variedad">
+
+                        <option>Mantecoso</option>
+
+                        <option>Suizo</option>
+
+                        <option>Parmesano</option>
+
+                        <option>Fresco</option>
+
+                    </select>
+
+
+                    <label for="queso-presentacion">
+                        Presentación:
+                    </label>
+
+                    <select id="queso-presentacion">
+
+                        <option>500 gramos - S/10</option>
+
+                        <option>1 kilogramo - S/20</option>
+
+                        <option>2 kilogramos - S/40</option>
+
+                        <option>3 kilogramos - S/60</option>
+
+                        <option>4 kilogramos - S/70</option>
+
+                    </select>
+
+
+                    <label for="queso-cantidad">
+                        Cantidad:
+                    </label>
+
+                    <input
+                        type="number"
+                        id="queso-cantidad"
+                        min="1"
+                        step="1"
+                        value="1"
+                    >
+
+
+                    <p class="precio">
+                        Precio desde S/ 10
+                    </p>
+
+
+                    <button type="button">
+                        🛒 Agregar al carrito
+                    </button>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- MANTEQUILLA -->
+
+            <article class="producto-detalle">
+
+                <div class="producto-imagen">
+
+                    <img src="mantequilla.jpg" alt="Mantequilla">
+
+                </div>
+
+
+                <div class="producto-info">
+
+                    <h2>🧈 Mantequilla</h2>
+
+                    <p>
+                        Mantequilla elaborada con leche de calidad,
+                        ideal para tus comidas.
+                    </p>
+
+
+                    <label for="mantequilla-presentacion">
+                        Presentación:
+                    </label>
+
+                    <select id="mantequilla-presentacion">
+
+                        <option>250 gramos - S/ 5</option>
+
+                        <option>500 gramos - S/ 10</option>
+
+                        <option>750 gramos - S/ 15</option>
+
+                        <option>1 kilogramo - S/ 20</option>
+
+                    </select>
+
+
+                    <label for="mantequilla-cantidad">
+                        Cantidad:
+                    </label>
+
+                    <input
+                        type="number"
+                        id="mantequilla-cantidad"
+                        min="1"
+                        step="1"
+                        value="1"
+                    >
+
+
+                    <p class="precio">
+                        Precio desde S/ 5
+                    </p>
+
+
+                    <button type="button">
+                        🛒 Agregar al carrito
+                    </button>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- HELADOS -->
+
+            <article class="producto-detalle">
+
+                <div class="producto-imagen">
+
+                    <img src="helado.jpg" alt="Helados">
+
+                </div>
+
+
+                <div class="producto-info">
+
+                    <h2>🍦 Helados</h2>
+
+                    <p>
+                        Helados para disfrutar en cualquier momento
+                        y compartir con quien quieras.
+                    </p>
+
+
+                    <label for="helado-sabor">
+                        Sabor:
+                    </label>
+
+                    <select id="helado-sabor">
+
+                        <option>Fresa</option>
+
+                        <option>Chocolate</option>
+
+                        <option>Vainilla</option>
+
+                    </select>
+
+
+                    <label for="helado-presentacion">
+                        Presentación:
+                    </label>
+
+                    <select id="helado-presentacion">
+
+                        <option>1 cono - S/ 5.00</option>
+
+                        <option>2 conos - S/ 10.00</option>
+
+                        <option>3 conos - S/ 15.00</option>
+
+                        <option>1 litro - S/ 18.00</option>
+
+                        <option>2 litros - S/ 36.00</option>
+
+                    </select>
+
+
+                    <label for="helado-cantidad">
+                        Cantidad:
+                    </label>
+
+                    <input
+                        type="number"
+                        id="helado-cantidad"
+                        min="1"
+                        step="1"
+                        value="1"
+                    >
+
+
+                    <p class="precio">
+                        Precio desde S/ 5.00
+                    </p>
+
+
+                    <button type="button">
+                        🛒 Agregar al carrito
+                    </button>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- KÉFIR -->
+
+            <article class="producto-detalle">
+
+                <div class="producto-imagen">
+
+                    <img src="kefir.png" alt="Kéfir">
+
+                </div>
+
+
+                <div class="producto-info">
+
+                    <h2>🥛 Kéfir</h2>
+
+                    <p>
+                        Una opción diferente dentro de nuestros
+                        productos lácteos.
+                    </p>
+
+
+                    <label for="kefir-presentacion">
+                        Presentación:
+                    </label>
+
+                    <select id="kefir-presentacion">
+
+                        <option>500 mililitros - S/ 7.5</option>
+
+                        <option>1 litro - S/ 15</option>
+
+                        <option>2 litros - S/ 30</option>
+
+                        <option>3 litros - S/ 45</option>
+
+                        <option>4 litros - S/ 60</option>
+
+
+                    </select>
+
+
+                    <label for="kefir-cantidad">
+                        Cantidad:
+                    </label>
+
+                    <input
+                        type="number"
+                        id="kefir-cantidad"
+                        min="1"
+                        step="1"
+                        value="1"
+                    >
+
+
+                    <p class="precio">
+                        Precio desde S/ 7.50
+                    </p>
+
+
+                    <button type="button">
+                        🛒 Agregar al carrito
+                    </button>
+
+                </div>
+
+            </article>
+
+
+        </section>
+
+<section class="guia-productos">
+
+    <h2>¿Cuál se te antoja?</h2>
+
+    <p>
+        Cada producto tiene su propio encanto. Elige el que más vaya contigo.
+    </p>
+
+    <table>
+
+        <thead>
+
+            <tr>
+                <th>Producto</th>
+                <th>¿Qué encontrarás?</th>
+                <th>Ideal para</th>
+            </tr>
+
+        </thead>
+
+
+        <tbody>
+
+            <tr>
+                <td>🥛 Leche</td>
+                <td>Fresca y de calidad</td>
+                <td>Desayunos</td>
+            </tr>
+
+            <tr>
+                <td>🍓 Yogur</td>
+                <td>Fresa, arándano y higo</td>
+                <td>Un snack</td>
+            </tr>
+
+            <tr>
+                <td>🧀 Quesos</td>
+                <td>Mantecoso, suizo, parmesano y fresco</td>
+                <td>Compartir</td>
+            </tr>
+
+            <tr>
+                <td>🧈 Mantequilla</td>
+                <td>Diferentes presentaciones</td>
+                <td>Cocinar</td>
+            </tr>
+
+            <tr>
+                <td>🍦 Helados</td>
+                <td>Fresa, chocolate y vainilla</td>
+                <td>Darte un gustito</td>
+            </tr>
+
+            <tr>
+                <td>🥛 Kéfir</td>
+                <td>Una opción diferente</td>
+                <td>Probar algo nuevo</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</section>
+
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            &copy; 2026 ADELA's - Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
